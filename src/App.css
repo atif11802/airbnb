@@ -1,0 +1,29 @@
+.app__bg {
+	background-image: url("./images/pexels-binyamin-mellish-186076\ 1.jpg");
+	height: 550px;
+
+	position: relative;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -80px;
+}
+
+.headerInside__text {
+	margin: 45px 88px;
+	line-height: 58px;
+}
+.headerInside__textbanner > h2 {
+	color: white;
+	font-size: 55px;
+}
+
+.MuiButtonBase-root {
+	margin-top: 30px !important;
+}
+
+.MuiButton-label {
+	font-size: 13px !important;
+}
