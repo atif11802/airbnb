@@ -56,3 +56,80 @@
 	background-color: white !important;
 	padding: 15px 26px !important;
 }
+
+@media only screen and (max-width: 500px) {
+	.banner__text > h2 {
+		color: #222222;
+		font-size: 28px;
+		font-weight: 500;
+	}
+	.banner__text {
+		padding-top: 94px;
+		padding-left: 55px;
+	}
+
+	.places__bannerText > h2 {
+		color: white;
+		font-size: 40px;
+		font-weight: 400;
+	}
+	.places__bannerText > p {
+		color: white;
+		margin-top: 10px;
+		font-size: 19px;
+		font-weight: 400;
+	}
+	.places__livebox {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.places__discoverBox {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.places {
+		width: 60%;
+		margin: auto auto;
+	}
+	.plcaes__banner {
+		margin-top: 90px;
+
+		width: 100%;
+		height: 402px;
+		border-radius: 20px;
+	}
+	.places__bannerText {
+		padding-top: 41px;
+		padding-left: 65px;
+		padding-bottom: 74px;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.places {
+		width: 90%;
+	}
+	.places__livebox {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.places__discoverBox {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.plcaes__banner {
+		margin-top: 90px;
+
+		background-image: url("../images/rsz_pexels-tsvetoslav-hristov-2678435_1.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 90%;
+		height: 402px;
+		border-radius: 20px;
+	}
+}

@@ -1,0 +1,52 @@
+.misc {
+	width: 87%;
+	margin: 50px auto 100px;
+}
+
+.misc h2 {
+	font-size: 31px;
+	color: #222222;
+	font-weight: 700;
+}
+
+.misc__header {
+	margin-top: 25px;
+	margin-bottom: 15px;
+	display: flex;
+	padding-bottom: 15px;
+	border-bottom: 1px solid gray;
+}
+
+.misc__header > p {
+	margin-right: 30px;
+	color: #707070;
+}
+
+.misc__textBox {
+	display: flex;
+	align-items: center;
+}
+
+.misc__text {
+	margin-right: 200px;
+}
+
+@media only screen and (max-width: 500px) {
+	.misc__header {
+		overflow-x: scroll;
+	}
+	.misc__textBox {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.misc__textBox {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+}

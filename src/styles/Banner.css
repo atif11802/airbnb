@@ -29,3 +29,24 @@
 .banner__text > .MuiButtonBase-root > .MuiButton-label {
 	color: white !important;
 }
+
+@media only screen and (max-width: 500px) {
+	.banner {
+		width: 100%;
+	}
+	.banner__text > h2 {
+		color: #222222;
+		font-size: 26px;
+		font-weight: 400;
+	}
+	.banner__text {
+		padding-top: 71px;
+		padding-left: 91px;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.banner {
+		width: 90%;
+	}
+}

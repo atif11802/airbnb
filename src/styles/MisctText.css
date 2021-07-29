@@ -1,0 +1,11 @@
+.miscText {
+	margin-bottom: 15px;
+	text-transform: capitalize;
+}
+.miscText > p:nth-child(1) {
+	color: #222222;
+}
+
+.miscText > p:nth-child(2) {
+	color: #717171;
+}

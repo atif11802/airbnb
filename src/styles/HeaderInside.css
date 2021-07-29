@@ -139,3 +139,59 @@
 	top: 89px;
 	margin-left: 395px;
 }
+
+@media only screen and (max-width: 500px) {
+	.headerInside__box {
+		display: none;
+	}
+	.headerInside__text {
+		margin: 45px 88px;
+		line-height: 58px;
+	}
+	.headerInside__textbanner > h2 {
+		color: white;
+
+		font-size: 35px;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.headerInside__boxLocation {
+		padding-top: 5px;
+		padding-right: 20px;
+	}
+	.headerInside__boxCheckIn {
+		padding-top: 5px;
+		padding-right: 20px;
+	}
+	.headerInside__boxCheckOut {
+		padding-top: 5px;
+		padding-right: 20px;
+	}
+	.headerInside__boxLocation > p {
+		width: 56px;
+	}
+	.headerInside__boxLocation > span {
+		font-size: 8px;
+	}
+	.headerInside__boxCheckIn > p {
+		width: 56px;
+	}
+	.headerInside__boxCheckIn > span {
+		font-size: 8px;
+	}
+	.headerInside__boxCheckOut > p {
+		width: 56px;
+	}
+	.headerInside__boxCheckOut > span {
+		font-size: 8px;
+	}
+	.headerInside__dateRange > .rdrDateRangePickerWrapper {
+		position: absolute;
+		top: 89px;
+		margin-left: 125px;
+	}
+	.headerInside__box {
+		width: 75%;
+	}
+}

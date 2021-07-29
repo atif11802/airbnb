@@ -4,6 +4,7 @@ import logo from "../images/pngkey.com-airbnb-logo-png-606021.png";
 import LanguageIcon from "@material-ui/icons/Language";
 import MenuIcon from "@material-ui/icons/Menu";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+import SearchIcon from "@material-ui/icons/Search";
 
 const Header = () => {
 	return (
@@ -15,6 +16,15 @@ const Header = () => {
 				<p>Places to Stay</p>
 				<p>Experiences</p>
 				<p>Online Experiences</p>
+				<div className="header__middleInput">
+					<input
+						type="text"
+						placeholder="start your search"
+					/>
+					<div className="header__middleInputBtn">
+						<SearchIcon />
+					</div>
+				</div>
 			</div>
 			<div className="header__right">
 				<div className="header__rightHost">

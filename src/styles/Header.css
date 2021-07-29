@@ -40,6 +40,9 @@
 	color: #f3f3ec;
 	font-weight: 400;
 }
+.header__middle > .header__middleInput {
+	display: none;
+}
 .header__middle > p:hover {
 	color: #919596 !important;
 }
@@ -80,4 +83,58 @@
 .header__rightUserAvatar > .MuiSvgIcon-root {
 	color: #717171;
 	cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+	.header {
+		padding-left: 40px !important;
+	}
+	.header__logo {
+		display: none !important;
+	}
+	.header__middle > P {
+		display: none !important;
+	}
+	.header__right {
+		display: none !important;
+	}
+	.header__middleInput {
+		border: 1px solid lightgray;
+		background-color: white;
+		padding: 9px;
+		border-radius: 50px;
+		display: flex !important;
+		align-items: center;
+	}
+	.header__middleInput > input {
+		border: none;
+		padding-left: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: gray;
+		font-size: 14px;
+		overflow-x: scroll;
+	}
+	.header__middleInput > input:focus {
+		outline: none;
+	}
+	.header__middleInput > .header__middleInputBtn {
+		height: 30px;
+		width: 30px;
+		background-color: #f7575c;
+		border-radius: 50%;
+	}
+	.header__middleInput > .header__middleInputBtn > .MuiSvgIcon-root {
+		padding: 5px;
+		font-size: 30px !important;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.header__middle > p {
+		display: none !important;
+	}
+	.header__right {
+		flex: 0.5 !important;
+	}
 }

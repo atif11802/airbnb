@@ -24,10 +24,10 @@
 .headerSecond__middle {
 	border: 1px solid #ebebeb;
 
-	padding: 6px 26px;
+	padding: 6px 15px;
 	border-radius: 79px;
 	cursor: pointer;
-	margin-left: 38px;
+	margin-left: 60px;
 }
 
 .headerSecond__middle:hover {
@@ -42,6 +42,7 @@
 }
 
 .headerSecond__middleSearch > input {
+	padding-right: 36px;
 	border: none;
 	color: grey;
 	font-weight: 700;
@@ -65,7 +66,7 @@
 }
 
 .header__right {
-	flex: 0.3;
+	flex: 0.4;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -105,4 +106,45 @@
 .header__rightUserAvatar > .MuiSvgIcon-root {
 	color: #717171;
 	cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+	.headerSecond__logo {
+		display: none;
+	}
+	.headerSecond {
+		display: flex;
+		align-items: center;
+		height: 80px;
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+		padding-left: 0px !important;
+		padding-right: 80px !important;
+		background: white;
+		margin: auto auto;
+		font-size: 18px;
+		z-index: 100;
+		top: 0;
+		position: sticky;
+		justify-content: space-between;
+		box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+	}
+	.headerSecond__middle {
+		border: 1px solid #ebebeb;
+		padding: 6px 0px;
+		border-radius: 79px;
+		cursor: pointer;
+		margin-left: 60px;
+	}
+	.headerSecond__middleSearch > input {
+		padding-right: 6px;
+		border: none;
+		color: grey;
+		font-weight: 700;
+		font-size: 14px;
+		padding-left: 8px;
+	}
+	.headerSecond__middleSearchSearch {
+		margin-right: 10px;
+	}
 }

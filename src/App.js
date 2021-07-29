@@ -5,6 +5,8 @@ import Header from "./component/Header";
 import Headersecond from "./component/Header2";
 import HeaderInside from "./component/HeaderInside";
 import Places from "./component/Places";
+import Misc from "./component/Misc";
+import Footer from "./component/Footer";
 
 function App() {
 	const [navbar, setNavbar] = useState(0);
@@ -35,6 +37,8 @@ function App() {
 			</div>
 			<Banner />
 			<Places />
+			<Misc />
+			<Footer />
 		</div>
 	);
 }
